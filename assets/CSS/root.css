@@ -108,6 +108,18 @@ a{
         --fs-lg: 48px;
         --fs-xl: 50px;
     }
+
+    .heroline-down::before {
+     
+        left: 15%;
+        bottom: 59px;
+    }
+
+    .width-50{
+        width: unset !important;
+    }
+    
+    
     
 }
 
@@ -117,6 +129,11 @@ a{
         --fs-md: 20px;
         --fs-lg: 56px;
         --fs-xl: 64px;
+    }
+
+    .heroline-down::before {
+        left: 15%;
+        bottom: 72px;
     }
 
    

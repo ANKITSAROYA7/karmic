@@ -241,7 +241,7 @@
     position: absolute;
     content: '';
     left: 15%;
-    bottom: 67px;
+    bottom: 36px;
     width: 0;
     height: 1px;
     background-color: #fff;
@@ -292,6 +292,7 @@ h1.blak::before {
     height: 184px;
    background-color: #FFF;
     filter: blur(124px);
+    left: -16%;
 }
 
 .blur-box1 {
@@ -314,13 +315,24 @@ h1.blak::before {
 }
 
 .blur-box3 {
-    position: absolute;
-    width: 184px;
-    height: 184px;
-    background-color: #FFF;
-    filter: blur(124px);
-    left: 89%;
-    top: 43%;
+    
+        position: absolute;
+        width: 184px;
+        height: 184px;
+        background-color: #FFF;
+        filter: blur(124px);
+        left: 74%;
+        top: 37%;
+}
+
+button.comman-btn:hover{
+    opacity: 0.7;
+    transition: all 200ms;
+    background-color: gray !important;
+}
+
+.width-50{
+    width: 50%;
 }
 
 
