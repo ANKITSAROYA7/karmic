@@ -335,6 +335,15 @@ button.comman-btn:hover{
     width: 50%;
 }
 
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.footer_line{
+    height: 1px;
+    background-color: #FFF;
+}
+
 
 
 @media (min-width:992px) {
